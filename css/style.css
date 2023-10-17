@@ -1,8 +1,20 @@
-* {
+.container {
+    max-width: 1035px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* * {
     box-sizing: border-box;
 }
 
-/*font-family: 'Outfit', sans-serif;*/
+/*font-family: 'Outfit', sans-serif;
+
+
+
+
+
+
 
 body {
     background: #010922;
@@ -76,4 +88,4 @@ body {
     color: #FFFFFF;
 margin-bottom: 33px;
 max-width: 421px;
-}
+} */
