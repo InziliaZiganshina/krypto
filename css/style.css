@@ -49,3 +49,55 @@ body {
     line-height: 27.50px;
     text-decoration: none;
 }
+
+.top__inner {
+    padding: 84px 0 40px;
+    background-image: url('../img/top-bg.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.top__title {
+    font-size: 87px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 48px;
+    max-width: 505px;
+}
+
+.top__text {
+    margin-bottom: 50px;
+    max-width: 435px;
+}
+
+.top__link-buy {
+    margin-right: 39px;
+    color: white;
+    font-size: 18px;
+    font-family: Outfit;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 43px;
+    letter-spacing: 4.68px;
+    word-wrap: break-word;
+    text-decoration: none;
+    padding: 22px 40px;
+    background-color: #8D8DDA;
+    border-radius: 149px;
+}
+
+.top__link-sell {
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 43px;
+    letter-spacing: 4.68px;
+    word-wrap: break-word;
+    padding: 22px 34px;
+    border-radius: 149px;
+    border: 1px solid #89D0D1;
+    text-decoration: none;
+}
