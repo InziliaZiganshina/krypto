@@ -20,6 +20,7 @@ body {
 .header {
     margin-top: 103px;
     margin-bottom: 16px;
+    position: relative;
 }
 
 .header__inner {
@@ -56,6 +57,7 @@ body {
 
 .top {
     margin-bottom: 133px;
+    position: relative;
 }
 
 .top__inner {
@@ -557,6 +559,7 @@ body {
 
 .footer__form {
     margin-left: 100px;
+    position: relative;
 }
 
 .footer__form-text {
@@ -609,4 +612,30 @@ body {
 .footer__line {
     height: 27px;
     background: linear-gradient(283deg, #52B2AC -13.18%, #302963 99.31%);
+}
+
+/*круги на фоне*/
+
+.header__circle {
+    border-radius: 648px;
+    background: #8D8DDA;
+    filter: blur(153px);
+    width: 603px;
+    height: 648px;
+    position: absolute;
+    top: -425px;
+    left: 700px;
+    z-index: -1; 
+}
+
+.top__circle {
+    border-radius: 648px;
+    background: rgba(137, 208, 209, 0.64);
+    filter: blur(153px);
+    width: 603px;
+    height: 648px;
+    position: absolute;
+    left: 55%;
+    top: -19%;
+    z-index: -1;
 }
