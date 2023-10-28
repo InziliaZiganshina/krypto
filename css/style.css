@@ -89,18 +89,18 @@ body {
 }
 
 .top__links {
-width: 450px;
+    width: 460px;
 }
 
 .top__nav1 {
     display: inline-block;
-    width: 203px;
+    width: 209px;
     margin-right: 39px;
 }
 
 .top__nav2 {
     display: inline-block;
-    width: 203px;
+    width: 207px;
 }
 
 .top__link-buy {
@@ -182,8 +182,8 @@ width: 450px;
 .article__comp:after {
     right: 0;
     background: linear-gradient(90deg,
-    rgba(6, 39, 97, 0) 0%,
-    rgba(6, 39, 97, 1) 100%);
+            rgba(6, 39, 97, 0) 0%,
+            rgba(6, 39, 97, 1) 100%);
 }
 
 .items {
@@ -218,15 +218,15 @@ width: 450px;
 .items-wrap:before {
     left: 0;
     background: linear-gradient(90deg,
-    rgba(37, 33, 85, 1) 0%,
-    rgba(37, 33, 85, 0) 100%);
+            rgba(37, 33, 85, 1) 0%,
+            rgba(37, 33, 85, 0) 100%);
 }
 
 .items-wrap:after {
     right: 0;
     background: linear-gradient(90deg,
-    rgba(37, 33, 85, 0) 0%,
-    rgba(37, 33, 85, 1) 100%);
+            rgba(37, 33, 85, 0) 0%,
+            rgba(37, 33, 85, 1) 100%);
 }
 
 .items {
@@ -289,3 +289,79 @@ width: 450px;
         display: none;
     }
 }
+
+.analytics {
+    padding: 120px 0 100px;
+}
+
+.analytics__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 108px;
+}
+
+.analytics__item-content {
+    max-width: 491px;
+}
+
+.analytics__item-pretitle {
+    margin-bottom: 18px;
+}
+
+.analytics__item-title {
+
+    font-size: 57px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 65px;
+    margin-bottom: 32px;
+}
+
+.analytics__item-text {
+    margin-bottom: 61px;
+}
+
+.analytics__item-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 43px;
+    letter-spacing: 4.68px;
+    padding: 17px 14px;
+    background: rgba(46, 39, 97, 0.80);
+    border-radius: 44px;
+}
+
+.analytics__item-link:hover {
+    transition: all 0.5s linear;
+    background: black;
+    border: 1px solid white;
+}
+
+  .analytics__item-img1 {
+    animation: bounce 3.5s infinite;
+  }
+
+  .analytics__item-img2 {
+    animation: bounce 4.5s infinite;
+  }
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+  
