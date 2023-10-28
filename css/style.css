@@ -88,12 +88,9 @@ body {
     max-width: 435px;
 }
 
-
-
 .top__links {
 width: 450px;
 }
-
 
 .top__nav1 {
     display: inline-block;
@@ -104,11 +101,9 @@ width: 450px;
 .top__nav2 {
     display: inline-block;
     width: 203px;
-   
 }
 
 .top__link-buy {
-  
     color: white;
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
@@ -144,6 +139,12 @@ width: 450px;
     border-radius: 149px;
     border: 1px solid #89D0D1;
     text-decoration: none;
+}
+
+.top__link-sell:hover {
+    transition: all 0.3s linear;
+    color: black;
+    background-color: #89D0D1;
 }
 
 .article {
