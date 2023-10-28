@@ -310,7 +310,6 @@ body {
 }
 
 .analytics__item-title {
-
     font-size: 57px;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
@@ -343,25 +342,101 @@ body {
     border: 1px solid white;
 }
 
-  .analytics__item-img1 {
+.analytics__item-img1 {
     animation: bounce 3.5s infinite;
-  }
+}
 
-  .analytics__item-img2 {
+.analytics__item-img2 {
     animation: bounce 4.5s infinite;
-  }
+}
 
 @keyframes bounce {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
+
     50% {
-      transform: translateY(-50px);
+        transform: translateY(-50px);
     }
+
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
+}
 
+.reviews__inner {
+    text-align: center;
+    margin-bottom: 177px;
+}
 
-  
+.reviews__inner-pretitle {
+    color: #89D0D1;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 43px;
+    letter-spacing: 4.68px;
+}
+
+.reviews__inner-title {
+    color: #E5E5E5;
+    font-size: 57px;
+    font-family: Outfit;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 65px;
+    margin-bottom: 110px;
+}
+
+.reviews__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__item {
+    border-radius: 28px;
+    background: #252155;
+    position: relative;
+    padding: 130px 21px 60px;
+    transition: 1s;
+}
+
+.reviews__item:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px 0px white;
+    z-index: 1;
+}
+
+.reviews__item+.reviews__item {
+    margin-left: 15px;
+}
+
+.reviews__item-photo {
+    position: absolute;
+    right: 58px;
+    top: -89px;
+    border-radius: 105px;
+}
+
+.reviews__item-name {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    /* 238.889% */
+    letter-spacing: 4.68px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.reviews__item-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
