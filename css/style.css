@@ -511,3 +511,8 @@ body {
     border: 1px solid white;
     background: rgba(46, 39, 97, 0);
 }
+
+.footer__line {
+    height: 27px;
+    background: linear-gradient(283deg, #52B2AC -13.18%, #302963 99.31%);
+}
