@@ -440,3 +440,74 @@ body {
     font-weight: 400;
     line-height: 25px;
 }
+
+.offer {
+    animation: bounce 5s infinite;
+}
+
+.offer__inner {
+    padding: 21px 249px 84px;
+    margin-bottom: 192px;
+    border-radius: 49px;
+    background: linear-gradient(283deg, #52B2AC -13.18%, #302963 99.31%);
+    text-align: center;
+}
+
+.offer__text {
+    color: #000;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    /* 238.889% */
+    letter-spacing: 4.68px;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+}
+
+.offer__title {
+    color: #FFFBFB;
+    text-align: center;
+    /* h2 */
+    font-family: Outfit;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    /* 114.035% */
+    letter-spacing: -1.14px;
+    text-transform: capitalize;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 73px;
+}
+
+.offer__link {
+    margin-top: 53px;
+    color: #FFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* button big */
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    /* 134.375% */
+    letter-spacing: 8.32px;
+    text-transform: uppercase;
+    padding: 20px 49px;
+    text-decoration: none;
+    border-radius: 43px;
+    background: #000;
+}
+
+.offer__link:hover {
+    transition: all 0.3s linear;
+    border: 1px solid white;
+    background: rgba(46, 39, 97, 0);
+}
