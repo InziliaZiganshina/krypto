@@ -298,6 +298,7 @@ body {
 
 .analytics {
     padding: 120px 0 100px;
+    position: relative;
 }
 
 .analytics__item {
@@ -368,6 +369,11 @@ body {
     100% {
         transform: translateY(0);
     }
+}
+
+
+.reviews {
+    position: relative;
 }
 
 .reviews__inner {
@@ -449,6 +455,7 @@ body {
 
 .offer {
     animation: bounce 5s infinite;
+    position: relative;
 }
 
 .offer__inner {
@@ -616,26 +623,64 @@ body {
 
 /*круги на фоне*/
 
-.header__circle {
+.circle__violet {
     border-radius: 648px;
     background: #8D8DDA;
     filter: blur(153px);
     width: 603px;
     height: 648px;
-    position: absolute;
-    top: -425px;
-    left: 700px;
-    z-index: -1; 
 }
 
-.top__circle {
+
+.circle__green {
     border-radius: 648px;
     background: rgba(137, 208, 209, 0.64);
     filter: blur(153px);
     width: 603px;
     height: 648px;
+}
+
+.header__circle {
+
+    position: absolute;
+    top: -425px;
+    left: 700px;
+    z-index: -1;
+}
+
+.top__circle {
+
     position: absolute;
     left: 55%;
     top: -19%;
+    z-index: -1;
+}
+
+.analytics__circle {
+    position: absolute;
+    top: 190px;
+    left: 680px;
+    z-index: -1;
+}
+
+.reviews__circle-1 {
+    position: absolute;
+    left: 55%;
+    top: -30%;
+    z-index: -1;
+}
+
+.reviews__circle-2 {
+
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: -1;
+}
+
+.offer__circle {
+    position: absolute;
+    top: 34%;
+    left: 57%;
     z-index: -1;
 }
