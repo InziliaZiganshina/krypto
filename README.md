@@ -1,5 +1,5 @@
 <h1>Сайт 'Krypto'</h1>
-<p>Посмотреть по ссылке:</p> <a href="https://inziliaziganshina.github.io/krypto/">KRYPTO</a>
+<p>Посмотреть по ссылке: <a href="https://inziliaziganshina.github.io/krypto/">KRYPTO</a></p>
 <p>Выполнено:</p>
 <ul>
   <li>html</li>
