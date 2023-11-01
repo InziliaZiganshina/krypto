@@ -674,3 +674,65 @@ body {
     left: 67%;
     z-index: -1;
 }
+
+@media (max-width: 1200px) {
+
+    
+
+    .offer__circle {
+        position: absolute;
+        top: 34%;
+        left: 49%;
+        z-index: -1; }
+
+
+        .reviews__circle-2 {
+            position: absolute;
+            top: 50%;
+            right: 45%;
+            z-index: -1; }
+
+
+
+            .reviews__circle-1 {
+                position: absolute;
+                left: 36%;
+                top: -23%;
+                z-index: -1; }
+
+
+                .analytics__circle {
+                    position: absolute;
+                    top: 190px;
+                    left: -20%;
+                    z-index: -1; }
+
+
+
+                    .top__circle {
+                        position: absolute;
+                        left: 36%;
+                        top: -3%;
+                        z-index: -1; }
+
+
+                        .header__circle {
+                            position: absolute;
+                            top: -474px;
+                            left: -20%;
+                            z-index: -1;
+                        }
+
+
+                        .follow-cursor {
+                            display: none; }
+
+
+
+                            .container {
+                                max-width: 795px;
+                                margin: 0 auto;
+                                padding: 0 10px;
+                                position: relative;
+                            }
+}
