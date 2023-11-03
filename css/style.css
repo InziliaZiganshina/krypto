@@ -921,10 +921,134 @@ body {
     .footer__form-text {
         margin-bottom: 27px;
     }
+}
+
+@media (max-width: 768px) {
+
+    .follow-cursor {
+        display: none;
+    }
+
+    .container {
+        max-width: 680px;
+    }
+
+    .header__circle {
+        top: -474px;
+        left: -20%;
+    }
+
+    .top__circle {
+        left: 11%;
+        top: -8%;
+    }
+
+    .analytics__circle {
+        top: 14px;
+        left: 4%;
+    }
+
+    .reviews__circle-1 {
+        left: -3%;
+        top: -23%;
+    }
+
+    .reviews__circle-2 {
+        top: 90%;
+        right: 8%;
+    }
+
+    .offer__circle {
+        display: none;
+    }
+
+    .top {
+        margin-bottom: 73px;
+    }
+
+    .top__title {
+        font-size: 60px;
+        max-width: 355px; 
+    }
+
+    .top__text {
+        margin-bottom: 67px;
+    }
+
+    .top__links {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top__link-buy {
+        font-size: 26px;
+    }
+
+    .top__link-sell {
+        font-size: 26px;
+    }
+
+    .analytics {
+        padding: 97px 0 17px;
+    }
+
+    .analytics__item-img1 {
+        width: 43%;
+        height: auto;
+        margin-right: 24px;
+        padding-top: 44px;
+    }
+
+    .analytics__item-pretitle {
+        margin-bottom: 14px;
+    }
+
+    .analytics__item-title {
+        font-size: 40px;
+    }
+
+    .analytics__item-text {
+        font-size: 14px;
+    }
+
+    .analytics__item-link {
+        font-size: 10px;
+    }
+
+    .analytics__item-img2 {
+        width: 43%;
+        height: auto;
+        margin-left: 24px;
+        padding-top: 44px;
+    }
+
+    .reviews__item-photo {
+        right: 37px;
+        width: 64%;
+        height: auto;
+    }
+
+    .offer__inner {
+        padding: 21px 150px 84px;
+    }
+
+    .offer__inner {
+        margin-bottom: 110px;
+    }
+
+    .footer__menu-link {
+        font-size: 11px;
+    }
 
 }
 
-@media (max-width: 768px) {}
+
+
+
+
+
 
 @media (max-width: 360px) {}
 
