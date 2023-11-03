@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', () => {
 
     const followCursor = () => { // объявление функции
@@ -23,4 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
     followCursor() // вызываем функцию followCursor
   
   })
+
+  const menuBtn = document.querySelector('.menu__btn');
+  const menuMobile = document.querySelector('.menu__list');
+
+  menuBtn.addEventListener('click', ()=> {
+    menuMobile.classList.toggle('menu--open');
+  });
   
