@@ -1079,6 +1079,10 @@ body {
         display: none;
     }
 
+    .header {
+        margin-top: 30px
+    }
+
     .menu__list {
         width: 153px;
         background-color: #010922;
@@ -1089,15 +1093,15 @@ body {
         box-shadow: 1px 1px 20px 0px white;
         border-radius: 10%;
         position: absolute;
-        left: 0;
-
+        left: 120px;
         top: 0;
         transform: translateY(-200%);
         transition: transform .5s ease;
     }
 
-    .menu__list.menu__open {
+    .menu__list.menu--open {
         transform: translateY(0%);
+        z-index: 1;
     }
 
     .menu__list-item+.menu__list-item {
@@ -1108,6 +1112,211 @@ body {
         display: flex;
     }
 
+    .top__inner {
+        background: none;
+        margin-bottom: 55px;
+    }
+
+    .top__title {
+        font-size: 52px;
+        max-width: 334px;
+    }
+
+    .top__text {
+        font-size: 17px;
+        margin-bottom: 48px;
+    }
+
+    .top__links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top__links {
+        width: 200px;
+    }
+
+    .top__nav1 {
+        margin-bottom: 75px;
+    }
+
+    .top__link-buy {
+        font-size: 18px;
+        padding: 27px 40px;
+    }
+
+    .top__link-sell {
+        font-size: 18px;
+        padding: 27px 34px;
+    }
+
+    .article__title {
+        margin-left: 0;
+    }
+
+    .article__comp {
+        padding: 0px 15px;
+        border-radius: 10px;
+    }
+
+    .analytics {
+        padding: 0;
+    }
+
+    .analytics__item-content {
+        text-align: center;
+    }
+
+    .analytics__item-pretitle {
+        text-align: left;
+    }
+
+    .analytics__item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .analytics__item-img1 {
+        width: 211px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .analytics {
+        padding: 0;
+    }
+
+    .analytics__item-title {
+        font-size: 37px;
+        text-align: left;
+    }
+
+    .analytics__item-text {
+        margin-bottom: 35px;
+        text-align: left;
+    }
+
+    .analytics__item-link {
+        background: #B2B2FC;
+        font-size: 18px;
+        padding: 17px 12px;
+    }
+
+    .analytics__item-img2 {
+        width: 211px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        order: -1;
+        padding-top: 0;
+    }
+
+    .reviews__inner {
+        margin-bottom: 49px;
+    }
+
+    .reviews__inner-title {
+        font-size: 37px;
+    }
+
+    .reviews__items {
+        flex-wrap: wrap;
+    }
+
+    .reviews__item-photo {
+        right: 110px;
+        width: 30%;
+        height: auto;
+    }
+
+    .reviews__inner-title {
+        margin-bottom: 50px;
+    }
+
+    .reviews__items {
+        flex-wrap: wrap;
+    }
+
+    .reviews__item {
+        padding: 25px;
+        margin-bottom: 70px;
+    }
+
+    .reviews__item-photo {
+        right: 125px;
+        width: 20%;
+        height: auto;
+        top: -33px;
+    }
+
+    .offer__inner {
+        padding: 20px 34px;
+    }
+
+    .offer__text {
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 3.12px;
+        text-transform: uppercase;
+    }
+
+    .offer__title {
+
+        font-size: 24px;
+
+        line-height: 34px;
+        /* 141.667% */
+        letter-spacing: -0.48px;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+
+    .offer__link {
+        letter-spacing: 4.68px;
+        padding: 7px 20px;
+    }
+
+    .offer__inner {
+        margin-bottom: 76px;
+    }
+
+    .logo__img {
+
+
+        margin-bottom: 32px;
+    }
+
+    .footer__inner {
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+        padding: 0 0 75px;
+    }
+
+
+    .footer__menu {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer__menu-link {
+        font-size: 16px;
+    }
+
+    .footer__menu-title {
+        font-size: 23px;
+
+        text-decoration: underline;
+    }
+
+    .footer__form {
+        display: none;
+    }
+
+
 }
 
 
@@ -1117,4 +1326,6 @@ body {
 
 
 
-@media (max-width: 640px) { }
+
+
+@media (max-width: 640px) {}
