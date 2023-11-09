@@ -1065,7 +1065,7 @@ body {
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
 
     .container {
         max-width: 340px;
@@ -1318,14 +1318,3 @@ body {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 640px) {}
